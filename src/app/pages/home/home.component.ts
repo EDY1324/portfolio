@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  hutaoSurprise() {
+    const sound = document.querySelector('audio');
+    sound?.play();
+    alert("Teng te teng! Kamu Kena Prank!");
+  }
 }
